@@ -1,4 +1,4 @@
-import 'package:casa_da_quintanda/src/auth/sign_in_screen.dart';
+import 'package:casa_da_quintanda/src/pages/auth/sign_in_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,8 +14,9 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        //primarySwatch: Colors.green,
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
+        primarySwatch: Colors.green,
+        scaffoldBackgroundColor: Colors.white.withAlpha(190),
+        //colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
         useMaterial3: true,
       ),
       home: const SignInScreen(),
